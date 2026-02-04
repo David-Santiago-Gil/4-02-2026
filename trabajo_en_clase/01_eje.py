@@ -1,5 +1,13 @@
-numero = int(input("Escribe el numero: "))
-if numero > 0 and numero < 100:
-    print("Es positivo y menor que 100")
+num = int(input("Ingresa un número: "))
+
+if num > 0 and num < 100:
+    print(" El número es positivo y menor que 100.")
+
+elif num >= 100:
+    print(" El número es positivo, pero es mayor o igual a 100.")
+
+elif num == 0:
+    print(" El número es cero (neutro).")
+
 else:
-    print("El numero es negativo y mayor que 100")
+    print(" El número es negativo.")
